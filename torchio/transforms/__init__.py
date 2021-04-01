@@ -30,6 +30,7 @@ from .preprocessing import Pad
 from .preprocessing import Crop
 from .preprocessing import Resample
 from .preprocessing import CropOrPad
+from .preprocessing import RandomCropOrPad
 from .preprocessing import ToCanonical
 from .preprocessing import ZNormalization
 from .preprocessing import RescaleIntensity
@@ -85,6 +86,7 @@ __all__ = [
     'HistogramStandardization',
     'RescaleIntensity',
     'CropOrPad',
+    'RandomCropOrPad',
     'EnsureShapeMultiple',
     'train_histogram',
     'OneHot',

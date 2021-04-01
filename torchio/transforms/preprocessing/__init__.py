@@ -2,6 +2,7 @@ from .spatial.pad import Pad
 from .spatial.crop import Crop
 from .spatial.resample import Resample
 from .spatial.crop_or_pad import CropOrPad
+from .spatial.random_crop_or_pad import RandomCropOrPad
 from .spatial.to_canonical import ToCanonical
 from .spatial.ensure_shape_multiple import EnsureShapeMultiple
 
@@ -23,6 +24,7 @@ __all__ = [
     'Resample',
     'ToCanonical',
     'CropOrPad',
+    'RandomCropOrPad',
     'EnsureShapeMultiple',
     'ZNormalization',
     'RescaleIntensity',

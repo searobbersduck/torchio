@@ -151,7 +151,7 @@ class Transform(ABC):
 
     def add_transform_to_subject_history(self, subject):
         from .augmentation import RandomTransform
-        from . import Compose, OneOf, CropOrPad, EnsureShapeMultiple
+        from . import Compose, OneOf, CropOrPad, RandomCropOrPad, EnsureShapeMultiple
         from .preprocessing import SequentialLabels
         call_others = (
             RandomTransform,
